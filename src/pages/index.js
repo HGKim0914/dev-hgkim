@@ -21,7 +21,7 @@ export default function Home() {
             display: flex;
 
             background-color: #f9f9f9;
-            padding: 20px 2% 20px 17%;
+            {/* padding: 20px 2% 20px 17%; */}
           }
           .video-list {
             display: flex;

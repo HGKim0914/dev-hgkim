@@ -6,8 +6,8 @@ export default function Sidebar() {
             <div className="sidebar">
                 <div className="link-container">
                     <Link href="/" legacyBehavior><h4>Home</h4></Link>
-                    <Link href="/" legacyBehavior><h4>About Me</h4></Link>
-                    <Link href="/" legacyBehavior><h4>Projects</h4></Link>
+                    <Link href="/about" legacyBehavior><h4>About Me</h4></Link>
+                    <Link href="/skill" legacyBehavior><h4>Projects</h4></Link>
                 </div>
                 <style jsx>{`
                     .sidebar {

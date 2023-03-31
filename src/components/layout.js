@@ -7,6 +7,11 @@ export default function Layout({ children }) {
             <Header />
             <Sidebar />
             <div>{children}</div>
+            <style jsx>{`
+                div {
+                    padding: 20px 2% 20px 17%;
+                }
+            `}</style>
         </>
     );
 }
