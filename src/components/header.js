@@ -4,9 +4,9 @@ export default function Header() {
     return (
         <>
             <div className="header">
-                <div>box1</div>
-                <div>box2</div>
-                <div>box3</div>
+                <div>LOGO</div>
+                <div>Search Bar</div>
+                <div>Avatar</div>
             </div>
             <style jsx>{`
                 .header {
