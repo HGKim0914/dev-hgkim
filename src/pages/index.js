@@ -20,8 +20,8 @@ export default function Home() {
           .container {
             display: flex;
 
-            background-color: #f9f9f9;
-            {/* padding: 20px 2% 20px 17%; */}
+            {/* background-color: #f9f9f9;
+            padding: 20px 2% 20px 17%; */}
           }
           .video-list {
             display: flex;

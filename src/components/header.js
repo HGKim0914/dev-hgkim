@@ -44,7 +44,7 @@ export default function Header() {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    padding: 15px 2%;
+                    padding: 8px 2%;
 
                     position: sticky;
                     top: 0;
