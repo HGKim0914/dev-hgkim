@@ -1,35 +1,35 @@
 import Link from "next/link";
+import SidebarMenu from "./sidebarMenu";
+import HomeIcon from '@mui/icons-material/Home';
+import WhatshotIcon from '@mui/icons-material/Whatshot';
+import VideoLibraryIcon from '@mui/icons-material/VideoLibrary';
+import WifiTetheringIcon from '@mui/icons-material/WifiTethering';
 
 export default function Sidebar() {
     return (
         <>
             <div className="sidebar">
                 <div className="link-container">
-                    <Link href="/" legacyBehavior><h4>Home</h4></Link>
-                    <Link href="/about" legacyBehavior><h4>About Me</h4></Link>
-                    <Link href="/skill" legacyBehavior><h4>Projects</h4></Link>
+                    <SidebarMenu icon={<HomeIcon />} title="Home" />
+                    <SidebarMenu icon={<WhatshotIcon />} title="About" />
+                    <SidebarMenu icon={<VideoLibraryIcon />} title="Projects" />
+                    <SidebarMenu icon={<WifiTetheringIcon />} title="Contact" />
                 </div>
                 <style jsx>{`
                     .sidebar {
+                        background-color: #fff;
+
                         width: 15%;
                         height: 100vh;
                         
-                        /* position: -webkit-sticky; */
                         position: fixed;
-                        padding-top: 80px;
+                        padding-top: 55px;
                         top: 0;
-                        background-color: grey;
                     }
                     .link-container {
                         display: flex;
                         flex-direction: column;
                         justify-content: start;
-
-                        padding-left: 20px;
-                        margin-bottom: 20px;
-
-                        width: fit-content;
-                        flex-wrap: wrap;
                     }
                 `}</style>
             </div>

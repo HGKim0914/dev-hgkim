@@ -15,6 +15,9 @@ export default function Home() {
           <Video />
           <Video />
           <Video />
+          <Video />
+          <Video />
+          <Video />
         </div>
         <style jsx>{`
           .container {
