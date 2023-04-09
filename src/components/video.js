@@ -24,8 +24,8 @@ export default function Video() {
             </div>
             <style jsx>{`
                 .container {
-                    padding-top: 25px;
-                    margin-left: 5px;
+                    padding-top: 35px;
+                    margin-left: 10px;
                 }
                 .thumbnail {
                     width: 100%;

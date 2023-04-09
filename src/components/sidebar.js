@@ -10,10 +10,10 @@ export default function Sidebar() {
         <>
             <div className="sidebar">
                 <div className="link-container">
-                    <SidebarMenu icon={<HomeIcon />} title="Home" />
-                    <SidebarMenu icon={<WhatshotIcon />} title="About" />
-                    <SidebarMenu icon={<VideoLibraryIcon />} title="Projects" />
-                    <SidebarMenu icon={<WifiTetheringIcon />} title="Contact" />
+                    <SidebarMenu icon={<HomeIcon />} title="Home" link="/" />
+                    <SidebarMenu icon={<WhatshotIcon />} title="About" link="/about" />
+                    <SidebarMenu icon={<VideoLibraryIcon />} title="Projects" link="/project" />
+                    <SidebarMenu icon={<WifiTetheringIcon />} title="Contact" link="/contact" />
                 </div>
                 <style jsx>{`
                     .sidebar {

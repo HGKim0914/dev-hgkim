@@ -4,7 +4,7 @@ export default function SidebarMenu(props) {
     return (
         <>
             <div className="link-div">
-                <Link href="/" legacyBehavior>
+                <Link href={props.link} legacyBehavior>
                         <a>
                             <div className="circular-link">
                                 <span>{props.icon}</span>

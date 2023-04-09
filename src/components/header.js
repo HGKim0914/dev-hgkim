@@ -99,7 +99,7 @@ export default function Header() {
                     color: grey;
                     border: 1px solid lightgray;
                     width: 60px;
-                    height: 34px;
+                    height: 32px;
                     cursor: pointer;
 
                     border-left: none;
